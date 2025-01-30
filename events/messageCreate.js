@@ -4,7 +4,7 @@ const { ownerIDS } = require("../owner.json");
 const { MessageActionRow, MessageButton } = require("discord.js");
 const top = require(`@top-gg/sdk`);
 const vote = new top.Api(
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEwMzM3NzQyNTg2NzA4MTMyMDUiLCJib3QiOnRydWUsImlhdCI6MTY5NDMzODgyNX0.RNJy8raqhZ0dknPufnqEP6ArLygu3g-tIyH93eh7roo",
+  "",
 );
 
 const button = new MessageActionRow().addComponents(
